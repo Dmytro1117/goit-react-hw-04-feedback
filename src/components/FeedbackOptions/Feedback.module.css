@@ -1,0 +1,22 @@
+
+button {
+  font-weight: 600;
+  font-size: 20px;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-top: 20px;
+  transition-duration: 300ms;
+  border-radius: 2px;
+  border-style: hidden;
+ min-width: 80px;
+ height: 35px;
+  padding: 5px 10px;
+  color: azure;
+  background-color: rgb(20, 141, 222);
+}
+
+
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

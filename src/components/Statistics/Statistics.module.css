@@ -1,0 +1,14 @@
+.positive {
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(20, 141, 222);
+  margin-top: 25px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
