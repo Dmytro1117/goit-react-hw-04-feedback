@@ -2,22 +2,22 @@ import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 
 export const Statistics = ({
-  good = 0,
-  neutral = 0,
-  bad = 0,
-  total = 0,
-  positivePercentage = 0,
+  good,
+  neutral,
+  bad,
+  total,
+  positivePercentage,
 }) => {
   return (
     <ul>
       <li>
-        Good: {good}
+        Good:{good}
       </li>
       <li>
         Neutral: {neutral}
       </li>
       <li>
-        Bad: {bad}
+        Bad:{bad}
       </li>
 
       <li>
